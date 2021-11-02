@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(220, 238, 255);
+            margin: 0px;
+        }
+        header {
+            background-color: #f3dfdf;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.158);
+        }
+        nav {
+            background-color: rgb(134, 132, 131);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.301);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #7e8675;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+        article {
+            background-color: wheat;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(189, 166, 123);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Tecnologia e Conhecimento</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Algo.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex officia ab at. Eveniet, dolor at! Praesentium obcaecati labore nobis vero officia. Quos, debitis iure. Id dignissimos itaque veritatis quidem architecto.</p>
+                <aside>
+                    <p>Artigo escrito por alguem.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Curso em Video</p>
+
+    </footer>
+    
+</body>
+</html>
